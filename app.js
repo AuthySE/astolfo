@@ -238,7 +238,7 @@ function oneCodeVerify(token){
 			console.log(JSON.stringify(reporting));
 		}
 	});
-	removeUser(authy_id);
+	// removeUser(authy_id);
 	if(config.remove_number == true){
 		removeTwilioNumber();	
 	}
